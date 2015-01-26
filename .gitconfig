@@ -3,3 +3,11 @@
 	email = malotor@gmail.com
 [core]
 	fileMode = false
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	up = rebase
+	ci = commit
+	hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	yesterday = log --since 1.day.ago --decorate --oneline --author 'Manel'q:
